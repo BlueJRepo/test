@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/main.js"></script>
+<meta charset="ISO-8859-1">
+<title>MuleSoft Architect Level-1. Question-47</title>
+</head>
+<body>
+<p>
+<img src="images/question47.JPG" border="0" />
+<br>
+<br>
+A &nbsp;<input type="radio" name="question47" value="A">&nbsp; Order messages are sent to JMS queue. Order fulfilled messages are sent to a JMS topic.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Both microservices interact with same JMS provider(message broker).<br><br>
+
+B &nbsp;<input type="radio" name="question47" value="B">&nbsp; Order messages are sent directly to the Fulfilment microservice. OrderFulfilled messages are sent directly to the Order microservice.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The order AMQP-compatible message broker, so that message brokers can be chosen and scaled to best support the load of the each microservice.<br><br>
+
+C &nbsp;<input type="radio" name="question47" value="C">&nbsp; Order messages are sent to JMS queue. Order fulfilled messages are sent to JMS topic.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The order microservice interacts with one JMS provider (message broker) and the fulfillment microservice with different JMS provider,<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; so both message brokers can be chosen and scaled to best support the load of the each microservice<br><br>
+
+D &nbsp;<input type="radio" name="question47" value="D">&nbsp; Order message are sent to an Anpoint MQ exchange. Order fulfilled message are spent to an Anypoint MQ queue.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Both microservice interact with Anypoint MQ as the message broker, which must therefore scale to support the load of both microserivce.<br>
+
+&nbsp;<input type="button" name="Prev" value="Prev" onclick="window.location='Q46.html'"> &nbsp; <input type="button" name="Next" value="Next" onclick="checkAnswer('question47', this.form, 'Q48.html');">
+</body>
+</html>

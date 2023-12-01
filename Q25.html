@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/main.js"></script>
+<meta charset="ISO-8859-1">
+<title>MuleSoft Architect Level-1. Question-25</title>
+</head>
+<body>
+<p>
+<img src="images/question25.JPG" border="0" />
+<br>
+<br>
+<form name="question25Form">
+A &nbsp;<input type="radio" name="question25" value="A">&nbsp; Each Batch Job uses a SINGLE THREAD to process a configured block size of record.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each Batch Step instance receives a BLOCK of records as payload, and BLOCK of records are processed in ORDER.<br><br>
+B &nbsp;<input type="radio" name="question25" value="B">&nbsp; Each Batch Job uses a SINGLE THREAD for all Batch Steps.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each Batch Step instance receives ONE record at a time as the payload, and RECORDS are processed IN ORDER, first through Batch_Step_1 and then through Batch_Step_2.<br><br>
+C &nbsp;<input type="radio" name="question25" value="C">&nbsp; Each Batch Job uses SEVERAL THREADS for the Batch Steps.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each Batch Step instance receives ONE record at a time as the payload, and BATCH STEP INSTANCES executes IN PARALLEL process records and Batch Steps in ANY order as fast as possible.<br><br>
+D &nbsp;<input type="radio" name="question25" value="D">&nbsp; Each Batch Job uses SEVERAL THREADS for the Batch Steps.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each BATCH Step instance receives ONE record at a time as payload, and process IN PARALLEL within and between the two Batch Steps.<br><br>
+&nbsp;<input type="button" name="Prev" value="Prev" onclick="window.location='Q24.html'"> &nbsp; <input type="button" name="Next" value="Next" onclick="checkAnswer('question25', this.form, 'Q26.html');">
+</form>
+</body>
+<br>
+<div id="result"></div>
+</html>
